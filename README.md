@@ -110,3 +110,15 @@ npm install --save angular7-csv
   }
 }
 </pre></td></tr></table></div>
+
+# Angular7Csv (data, filename, options) – The options contains the following properties.
+1.      ieldSeparator – It is a field separator character.
+2.      quoteStrings – It is double quotes by default. If provided, will use these characters to "escape" fields.
+3.      decimalseparator – It is (.) decimal separator by default. If set to "locale", it uses the language sensitive representation of the number.
+4.      showLabels – It is false by default. If provided, would use this attribute to create a header row.
+5.      showTitle -  It is false by default.
+6.      useBom - It is true by default. If true, adds a BOM character at the start of the CSV
+
+7.      noDownload - It is false by default. If true, disables automatic download and returns only formatted CSV
+
+# You should check out the <a href="https://www.code-sample.com/2019/02/angular-7-export-to-csv-pdf-excel.html" target="_blank">docs.</a>
